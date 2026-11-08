@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://george-stathopoulos.github.io/docs-gap-finder/sitemap.xml

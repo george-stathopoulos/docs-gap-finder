@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 180" role="img" aria-label="Four toolbar icons with status dots">
+<rect width="640" height="180" rx="12" fill="#f4f6f8"/>
+<g font-family="system-ui,sans-serif" font-size="14" text-anchor="middle" fill="#1f2933">
+<g transform="translate(20,0)">
+<rect x="40" y="30" width="60" height="60" rx="14" fill="#3b5bdb"/><rect x="56" y="48" width="28" height="4" rx="2" fill="#fff"/><rect x="56" y="58" width="22" height="4" rx="2" fill="#fff"/><rect x="56" y="68" width="26" height="4" rx="2" fill="#fff"/>
+<circle cx="96" cy="86" r="14" fill="#fff"/><circle cx="96" cy="86" r="10" fill="#1a8f3c"/><text x="70" y="122" font-weight="700">Green</text><text x="70" y="142">Docs found</text></g>
+<g transform="translate(180,0)">
+<rect x="40" y="30" width="60" height="60" rx="14" fill="#3b5bdb"/><rect x="56" y="48" width="28" height="4" rx="2" fill="#fff"/><rect x="56" y="58" width="22" height="4" rx="2" fill="#fff"/><rect x="56" y="68" width="26" height="4" rx="2" fill="#fff"/>
+<circle cx="96" cy="86" r="14" fill="#fff"/><circle cx="96" cy="86" r="10" fill="#e0a200"/><text x="70" y="122" font-weight="700">Yellow</text><text x="70" y="142">Partial or weak</text></g>
+<g transform="translate(340,0)">
+<rect x="40" y="30" width="60" height="60" rx="14" fill="#3b5bdb"/><rect x="56" y="48" width="28" height="4" rx="2" fill="#fff"/><rect x="56" y="58" width="22" height="4" rx="2" fill="#fff"/><rect x="56" y="68" width="26" height="4" rx="2" fill="#fff"/>
+<circle cx="96" cy="86" r="14" fill="#fff"/><circle cx="96" cy="86" r="10" fill="#d92d20"/><text x="70" y="122" font-weight="700">Red</text><text x="70" y="142">Possible gap</text></g>
+<g transform="translate(500,0)">
+<rect x="40" y="30" width="60" height="60" rx="14" fill="#3b5bdb"/><rect x="56" y="48" width="28" height="4" rx="2" fill="#fff"/><rect x="56" y="58" width="22" height="4" rx="2" fill="#fff"/><rect x="56" y="68" width="26" height="4" rx="2" fill="#fff"/>
+<circle cx="96" cy="86" r="14" fill="#fff"/><circle cx="96" cy="86" r="10" fill="#8a8f98"/><text x="70" y="122" font-weight="700">Gray</text><text x="70" y="142">Off or unknown</text></g>
+</g></svg>
