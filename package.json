@@ -1,0 +1,8 @@
+{
+  "name": "docs-gap-finder-site",
+  "version": "0.8.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "build": "node website/build.mjs" },
+  "devDependencies": { "markdown-it": "^14.1.0" }
+}

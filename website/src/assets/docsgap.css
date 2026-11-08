@@ -1,0 +1,19 @@
+/* Docs Gap Finder: same family as the other project sites, with teal and an amber highlight. */
+:root { --accent:#0f766e; --accent-hover:#115e59; --accent-ink:#fff; --accent-soft:rgba(15,118,110,.08); --accent-line:rgba(15,118,110,.28); --mark:#fbbf24; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --accent:#5eead4; --accent-hover:#99f6e4; --accent-ink:#06302c; --accent-soft:rgba(94,234,212,.12); --accent-line:rgba(94,234,212,.35); } }
+:root[data-theme="dark"] { --accent:#5eead4; --accent-hover:#99f6e4; --accent-ink:#06302c; --accent-soft:rgba(94,234,212,.12); --accent-line:rgba(94,234,212,.35); }
+.dg-hero { padding: 88px 0 56px; text-align: center; }
+.dg-hero h1 { font-size: clamp(2.2rem, 6vw, 3.8rem); line-height: 1.08; margin: 12px auto 16px; max-width: 18ch; }
+.dg-hero h1 mark { background: linear-gradient(transparent 58%, var(--mark) 58%); color: inherit; padding: 0 .1em; }
+.dg-hero .lede { max-width: 60ch; margin: 0 auto 28px; color: var(--ink-2); font-size: 1.15rem; }
+.dg-hero .cta-row { justify-content: center; }
+.dg-meta { margin-top: 18px; color: var(--muted); font-size: .95rem; }
+.dg-steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; counter-reset: s; }
+.dg-steps .card { position: relative; padding-top: 52px; }
+.dg-steps .card::before { counter-increment: s; content: counter(s); position: absolute; top: 16px; left: 20px; width: 28px; height: 28px; border-radius: 50%; background: var(--accent); color: var(--accent-ink); display: grid; place-items: center; font-weight: 700; }
+.dg-points { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+.dg-points li { padding-left: 2em; position: relative; }
+.dg-points li::before { content: attr(data-e); position: absolute; left: 0; }
+.dg-demo { max-width: 760px; margin: 0 auto; }
+.dg-demo img { width: 100%; height: auto; border-radius: var(--radius); border: 1px solid var(--line); background: var(--surface); }
+.dg-note { border: 1px solid var(--accent-line); background: var(--accent-soft); border-radius: 20px; padding: 28px; }
