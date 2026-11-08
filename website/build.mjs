@@ -121,7 +121,7 @@ function layout( { title, description, root, current = '', body, canonical = '',
 <meta property="og:title" content="${ esc( full ) }">
 <meta property="og:description" content="${ esc( description ) }">
 <meta property="og:url" content="${ SITE.url }${ canonical }">
-<meta property="og:image" content="${ SITE.url }assets/og.jpg">
+<meta property="og:image" content="${ SITE.url }assets/og.png">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="${ root }assets/favicon.svg" type="image/svg+xml">
 <!-- Cloudflare Web Analytics: counts visits anonymously, no cookies --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "64332b427a604e879f82853393ebdb0d"}'></script><!-- End Cloudflare Web Analytics -->
